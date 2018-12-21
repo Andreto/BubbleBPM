@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BPM Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onkeypress="spacePress(event);">
+    <div class="circle unselectable" onclick="newClick();" id="tap-button">Click me or press space</div>
+    <div class="results-holder">
+      <div class="results" id="results-average">Average:<br>0 BPM</div>
+      <div class="results" id="results-last">Last:</br>0 BPM</div>
+      <div class="results" id="results-rounded">Rounded:</br>0 BPM</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
