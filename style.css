@@ -1,0 +1,64 @@
+body{
+  margin: 40px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+#tap-button{
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: #ea4335;
+  text-align: center;
+  line-height: 400px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+}
+
+.results-holder{
+  margin: auto;
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.results{
+  border-radius: 50%;
+  padding-top: 62px;
+  width: 180px;
+  height: 118px;
+  position: absolute;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#results-average{
+  top: 40px;
+  left: 80px;
+  background-color: #4285f4;
+}
+#results-rounded{
+  top: 168px;
+  left: 20px;
+  background-color: #ffa700
+}
+#results-last{
+  top: 60px;
+  right: 80px;
+  background-color: #008744
+}
+
+
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
